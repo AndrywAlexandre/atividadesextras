@@ -1,0 +1,7 @@
+valor = int(input('digite um número que vai aparecer entre 1 e 9999: '))
+n = str(valor)
+print('analisando o número{}'.format(n))
+print('A centena é {}'.format(n[3]))
+print('A desena é {}'.format(n[2]))
+print('A centena é {}'.format(n[1]))
+print('O milhar é {}'.format(n[0]))
